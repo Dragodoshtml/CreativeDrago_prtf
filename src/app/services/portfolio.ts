@@ -1,7 +1,7 @@
 import { Injectable, signal, computed } from '@angular/core';
 import { PortfolioItem, MediaCategory, ContactMessage } from '../models/portfolio.model';
 
-const STORAGE_KEY = 'minimalist_portfolio_items_v7';
+const STORAGE_KEY = 'minimalist_portfolio_items_v8';
 const CONTACT_STORAGE_KEY = 'minimalist_portfolio_contacts_v1';
 
 const INITIAL_ITEMS: PortfolioItem[] = [
@@ -248,8 +248,8 @@ const INITIAL_ITEMS: PortfolioItem[] = [
     title: 'Fotografia III',
     category: 'photo',
     description: 'Ensaio fotográfico por Alexandre Vieira.',
-    url: 'https://lh3.googleusercontent.com/d/11nKh3IQ6_GEZbTiMB8T3O4BdLT7HxfD',
-    thumbnailUrl: 'https://lh3.googleusercontent.com/d/11nKh3IQ6_GEZbTiMB8T3O4BdLT7HxfD',
+    url: 'https://lh3.googleusercontent.com/d/11nKh3IQ6_GEZbTiMB8T3O4BdLT7HxfyD',
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/11nKh3IQ6_GEZbTiMB8T3O4BdLT7HxfyD',
     aspectRatio: 'landscape',
     year: '2025',
     client: 'Alexandre Vieira',
@@ -316,25 +316,7 @@ const INITIAL_ITEMS: PortfolioItem[] = [
     },
     createdAt: 1735000010000
   },
-  {
-    id: 'photo-drive-7',
-    title: 'Fotografia VII',
-    category: 'photo',
-    description: 'Ensaio fotográfico por Alexandre Vieira.',
-    url: 'https://lh3.googleusercontent.com/d/13EsuP0SkwGWXEXGQA8ySY66IHH59uZAF',
-    thumbnailUrl: 'https://lh3.googleusercontent.com/d/13EsuP0SkwGWXEXGQA8ySY66IHH59uZAF',
-    aspectRatio: 'landscape',
-    year: '2025',
-    client: 'Alexandre Vieira',
-    tags: ['Fotografia', 'Contraste'],
-    featured: true,
-    details: {
-      camera: 'Sony / Leica',
-      resolution: 'Alta Resolução',
-      location: 'Portugal'
-    },
-    createdAt: 1735000011000
-  }
+
 ];
 
 @Injectable({

@@ -6,6 +6,7 @@ import { MediaGridComponent } from './components/media-grid/media-grid';
 import { PhotoFullscreenComponent } from './components/photo-fullscreen/photo-fullscreen';
 import { AddModalComponent } from './components/add-modal/add-modal';
 import { AboutDrawerComponent } from './components/about-drawer/about-drawer';
+import { BioSectionComponent } from './components/bio-section/bio-section';
 import { FooterComponent } from './components/footer/footer';
 
 @Component({
@@ -16,6 +17,7 @@ import { FooterComponent } from './components/footer/footer';
     CommonModule,
     HeaderComponent,
     MediaGridComponent,
+    BioSectionComponent,
     PhotoFullscreenComponent,
     AddModalComponent,
     AboutDrawerComponent,
