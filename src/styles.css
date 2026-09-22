@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-yellow: #77fe3f;
+  --color-brand-white: #fff8f0;
+}
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    @apply bg-neutral-950 text-[#fff8f0] transition-colors duration-300 antialiased selection:bg-[#77fe3f] selection:text-neutral-950;
+  }
+
+  .dark body {
+    @apply bg-neutral-950 text-[#fff8f0] selection:bg-[#77fe3f] selection:text-neutral-950;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom accent colors requested */
+.text-brand-yellow { color: #77fe3f; }
+.bg-brand-yellow { background-color: #77fe3f; }
+.border-brand-yellow { border-color: #77fe3f; }
+
+.text-brand-white { color: #fff8f0; }
+.bg-brand-white { background-color: #fff8f0; }
+.border-brand-white { border-color: #fff8f0; }
+
+/* Hide scrollbar for clean UI where appropriate */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom subtle backdrop blur */
+.glass-panel {
+  background: rgba(255, 248, 240, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.dark .glass-panel {
+  background: rgba(10, 10, 10, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Subtle animation keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
