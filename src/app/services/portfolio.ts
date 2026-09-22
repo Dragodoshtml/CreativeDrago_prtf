@@ -145,8 +145,8 @@ const INITIAL_ITEMS: PortfolioItem[] = [
     title: 'Unfelling',
     category: 'design',
     description: 'Capa de álbum / single design para Spotify por Alexandre Vieira.',
-    url: '/covers/cover-unfelling.jpg',
-    thumbnailUrl: '/covers/cover-unfelling.jpg',
+    url: 'https://i.scdn.co/image/ab67616d00001e02c6852103a0d09344e167d5b9',
+    thumbnailUrl: 'https://i.scdn.co/image/ab67616d00001e02c6852103a0d09344e167d5b9',
     spotifyUrl: 'https://open.spotify.com/track/2a7dyfTWBRZZrgakpwOcrZ',
     spotifyEmbedUrl: 'https://open.spotify.com/embed/track/2a7dyfTWBRZZrgakpwOcrZ?utm_source=generator&theme=0',
     aspectRatio: 'square',
@@ -166,8 +166,8 @@ const INITIAL_ITEMS: PortfolioItem[] = [
     title: 'Dark Horse',
     category: 'design',
     description: 'Capa de álbum / single design para Spotify por Alexandre Vieira.',
-    url: '/covers/cover-dark-horse.jpg',
-    thumbnailUrl: '/covers/cover-dark-horse.jpg',
+    url: 'https://i.scdn.co/image/ab67616d00001e02fe526eba82c9d10a5bc224db',
+    thumbnailUrl: 'https://i.scdn.co/image/ab67616d00001e02fe526eba82c9d10a5bc224db',
     spotifyUrl: 'https://open.spotify.com/track/7pOwFrgTqFMpOFZ72b1WlB',
     spotifyEmbedUrl: 'https://open.spotify.com/embed/track/7pOwFrgTqFMpOFZ72b1WlB?utm_source=generator&theme=0',
     aspectRatio: 'square',
@@ -187,8 +187,8 @@ const INITIAL_ITEMS: PortfolioItem[] = [
     title: 'Move your hipes',
     category: 'design',
     description: 'Capa de álbum / single design para Spotify por Alexandre Vieira.',
-    url: '/covers/cover-move-your-hipes.jpg',
-    thumbnailUrl: '/covers/cover-move-your-hipes.jpg',
+    url: 'https://i.scdn.co/image/ab67616d00001e0224f99e0870e9e8ddfecda607',
+    thumbnailUrl: 'https://i.scdn.co/image/ab67616d00001e0224f99e0870e9e8ddfecda607',
     spotifyUrl: 'https://open.spotify.com/track/2lR1cKDUOztbHEm7pw6o8i',
     spotifyEmbedUrl: 'https://open.spotify.com/embed/track/2lR1cKDUOztbHEm7pw6o8i?utm_source=generator&theme=0',
     aspectRatio: 'square',
@@ -204,14 +204,14 @@ const INITIAL_ITEMS: PortfolioItem[] = [
     createdAt: 1735000003900
   },
 
-  // Photography Series from Google Drive
+  // Photography Series from the shared Google Drive folder
   {
     id: 'photo-drive-1',
     title: 'Fotografia I',
     category: 'photo',
     description: 'Ensaio fotográfico por Alexandre Vieira.',
-    url: '/photos/photo-1.jpg',
-    thumbnailUrl: '/photos/photo-1.jpg',
+    url: 'https://lh3.googleusercontent.com/d/1rZ_XKZDUFm6nJepdar1a9a0FKzm8HHsZ',
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/1rZ_XKZDUFm6nJepdar1a9a0FKzm8HHsZ',
     aspectRatio: 'landscape',
     year: '2025',
     client: 'Alexandre Vieira',
@@ -229,8 +229,8 @@ const INITIAL_ITEMS: PortfolioItem[] = [
     title: 'Fotografia II',
     category: 'photo',
     description: 'Ensaio fotográfico por Alexandre Vieira.',
-    url: '/photos/photo-2.jpg',
-    thumbnailUrl: '/photos/photo-2.jpg',
+    url: 'https://lh3.googleusercontent.com/d/1iRft4guw0vjXsoFqGPsKIVZzAzqdINzz',
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/1iRft4guw0vjXsoFqGPsKIVZzAzqdINzz',
     aspectRatio: 'landscape',
     year: '2025',
     client: 'Alexandre Vieira',
@@ -248,8 +248,8 @@ const INITIAL_ITEMS: PortfolioItem[] = [
     title: 'Fotografia III',
     category: 'photo',
     description: 'Ensaio fotográfico por Alexandre Vieira.',
-    url: '/photos/photo-3.jpg',
-    thumbnailUrl: '/photos/photo-3.jpg',
+    url: 'https://lh3.googleusercontent.com/d/11nKh3IQ6_GEZbTiMB8T3O4BdLT7HxfD',
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/11nKh3IQ6_GEZbTiMB8T3O4BdLT7HxfD',
     aspectRatio: 'landscape',
     year: '2025',
     client: 'Alexandre Vieira',
@@ -263,12 +263,12 @@ const INITIAL_ITEMS: PortfolioItem[] = [
     createdAt: 1735000006000
   },
   {
-    id: 'photo-drive-5',
+    id: 'photo-drive-4',
     title: 'Fotografia IV',
     category: 'photo',
     description: 'Ensaio fotográfico por Alexandre Vieira.',
-    url: '/photos/photo-5.jpg',
-    thumbnailUrl: '/photos/photo-5.jpg',
+    url: 'https://lh3.googleusercontent.com/d/1Ht0ihMbaivvneAqxK_PlYusesQZ6xpU-',
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/1Ht0ihMbaivvneAqxK_PlYusesQZ6xpU-',
     aspectRatio: 'landscape',
     year: '2025',
     client: 'Alexandre Vieira',
@@ -281,12 +281,12 @@ const INITIAL_ITEMS: PortfolioItem[] = [
     createdAt: 1735000008000
   },
   {
-    id: 'photo-drive-6',
+    id: 'photo-drive-5',
     title: 'Fotografia V',
     category: 'photo',
     description: 'Ensaio fotográfico por Alexandre Vieira.',
-    url: '/photos/photo-6.jpg',
-    thumbnailUrl: '/photos/photo-6.jpg',
+    url: 'https://lh3.googleusercontent.com/d/1WKU6FV-9lSQSFMY-kGuDNUel01WXltx8',
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/1WKU6FV-9lSQSFMY-kGuDNUel01WXltx8',
     aspectRatio: 'landscape',
     year: '2025',
     client: 'Alexandre Vieira',
@@ -299,12 +299,12 @@ const INITIAL_ITEMS: PortfolioItem[] = [
     createdAt: 1735000009000
   },
   {
-    id: 'photo-drive-7',
+    id: 'photo-drive-6',
     title: 'Fotografia VI',
     category: 'photo',
     description: 'Ensaio fotográfico por Alexandre Vieira.',
-    url: '/photos/photo-7.jpg',
-    thumbnailUrl: '/photos/photo-7.jpg',
+    url: 'https://lh3.googleusercontent.com/d/1-986xgs1J3LoTAcFo4XzAGzjJ-cC_s2q',
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/1-986xgs1J3LoTAcFo4XzAGzjJ-cC_s2q',
     aspectRatio: 'landscape',
     year: '2025',
     client: 'Alexandre Vieira',
@@ -315,6 +315,25 @@ const INITIAL_ITEMS: PortfolioItem[] = [
       location: 'Portugal'
     },
     createdAt: 1735000010000
+  },
+  {
+    id: 'photo-drive-7',
+    title: 'Fotografia VII',
+    category: 'photo',
+    description: 'Ensaio fotográfico por Alexandre Vieira.',
+    url: 'https://lh3.googleusercontent.com/d/13EsuP0SkwGWXEXGQA8ySY66IHH59uZAF',
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/13EsuP0SkwGWXEXGQA8ySY66IHH59uZAF',
+    aspectRatio: 'landscape',
+    year: '2025',
+    client: 'Alexandre Vieira',
+    tags: ['Fotografia', 'Contraste'],
+    featured: true,
+    details: {
+      camera: 'Sony / Leica',
+      resolution: 'Alta Resolução',
+      location: 'Portugal'
+    },
+    createdAt: 1735000011000
   }
 ];
 

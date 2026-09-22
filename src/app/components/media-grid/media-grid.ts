@@ -65,9 +65,10 @@ import { PortfolioItem } from '../../models/portfolio.model';
               class="relative overflow-hidden aspect-square w-full bg-neutral-900 group cursor-pointer focus:outline-none"
             >
               <img 
-                [src]="item.url" 
+                [src]="item.thumbnailUrl || item.url" 
                 [alt]="item.title"
                 loading="lazy"
+                referrerpolicy="no-referrer"
                 class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               />
               <!-- Subtle hover overlay with spotify and expand icon hints -->
@@ -110,7 +111,7 @@ import { PortfolioItem } from '../../models/portfolio.model';
               class="relative overflow-hidden aspect-[4/3] sm:aspect-square w-full bg-neutral-900 group cursor-pointer focus:outline-none"
             >
               <img 
-                [src]="item.url" 
+                [src]="item.thumbnailUrl || item.url" 
                 [alt]="item.title"
                 loading="lazy"
                 class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"

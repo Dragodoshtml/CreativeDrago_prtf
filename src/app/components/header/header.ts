@@ -37,15 +37,16 @@ import { PortfolioService } from '../../services/portfolio';
         <!-- Centered Logo / Animated Loop -->
         <div class="my-auto py-12 flex flex-col items-center justify-center text-center">
           <div class="relative max-w-md sm:max-w-lg w-full flex items-center justify-center">
-            <picture class="flex items-center justify-center">
-              <source srcset="/video/logo_transparent.webp" type="image/webp">
-              <img 
-                src="/video/logo_transparent.gif" 
-                alt="Alexandre Vieira" 
+            <video
+              src="/video/logo.webm"
+              autoplay
+              loop
+              muted
+              playsinline
+              aria-label="Alexandre Vieira"
                 class="max-h-[350px] sm:max-h-[450px] w-auto object-contain select-none pointer-events-none drop-shadow-2xl"
-                referrerpolicy="no-referrer"
-              />
-            </picture>
+                (error)="onLogoError($event)"
+            ></video>
           </div>
         </div>
       </div>
@@ -70,6 +71,11 @@ export class HeaderComponent {
 
   scrollToWork(): void {
     this.scrollToSection('work');
+  }
+
+  onLogoError(event: Event): void {
+    const img = event.target as HTMLImageElement;
+    console.error('Falha ao carregar logo:', img.src);
   }
 }
 
