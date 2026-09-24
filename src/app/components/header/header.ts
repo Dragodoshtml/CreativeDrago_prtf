@@ -27,10 +27,9 @@ import { PortfolioService } from '../../services/portfolio';
         <!-- Centered Navigation Bar -->
         <div class="flex justify-center items-center w-full">
           <!-- Main Navigation Links -->
-          <nav class="flex items-center justify-center gap-8 sm:gap-12 text-[11px] sm:text-xs uppercase tracking-[0.2em] font-medium text-[#fff8f0]/80 drop-shadow-sm">
+          <nav class="flex items-center justify-center gap-8 sm:gap-14 text-[11px] sm:text-xs uppercase tracking-[0.2em] font-medium text-[#fff8f0]/80 drop-shadow-sm">
             <button (click)="scrollToSection('work')" class="hover:text-[#77fe3f] transition-colors cursor-pointer focus:outline-none">MY WORK</button>
             <button (click)="scrollToSection('about')" class="hover:text-[#77fe3f] transition-colors cursor-pointer focus:outline-none">ABOUT ME</button>
-            <button (click)="openAbout()" class="hover:text-[#77fe3f] transition-colors cursor-pointer focus:outline-none">CONTACT</button>
           </nav>
         </div>
 

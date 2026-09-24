@@ -172,17 +172,14 @@ import { PortfolioService } from '../../services/portfolio';
               </h3>
 
               <div class="flex flex-wrap gap-2 text-xs">
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-full bg-neutral-200/60 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-300 dark:hover:bg-neutral-700 transition-colors">
+                <a href="https://www.instagram.com/creative_drago/" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-full bg-neutral-200/60 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-300 dark:hover:bg-neutral-700 transition-colors">
                   Instagram
                 </a>
-                <a href="https://vimeo.com" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-full bg-neutral-200/60 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-300 dark:hover:bg-neutral-700 transition-colors">
+                <a href="https://www.youtube.com/@creative_drago" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-full bg-neutral-200/60 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-300 dark:hover:bg-neutral-700 transition-colors">
+                  YouTube
+                </a>
+                <a href="https://vimeo.com/user184871109?embedded=true&source=owner_name&owner=184871109" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-full bg-neutral-200/60 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-300 dark:hover:bg-neutral-700 transition-colors">
                   Vimeo
-                </a>
-                <a href="https://behance.net" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-full bg-neutral-200/60 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-300 dark:hover:bg-neutral-700 transition-colors">
-                  Behance
-                </a>
-                <a href="https://artstation.com" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-full bg-neutral-200/60 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-300 dark:hover:bg-neutral-700 transition-colors">
-                  ArtStation
                 </a>
               </div>
 

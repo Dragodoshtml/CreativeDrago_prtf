@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
     <section 
       id="about" 
       aria-label="Sobre Alexandre Vieira"
-      class="w-full bg-[#342A21] overflow-hidden transition-colors duration-300 border-t border-black/30"
+      class="w-full bg-black overflow-hidden transition-colors duration-300 border-t border-neutral-900"
     >
       <div class="w-full grid grid-cols-1 lg:grid-cols-2 min-h-[580px] lg:min-h-[640px]">
         
@@ -24,13 +24,13 @@ import { CommonModule } from '@angular/common';
             referrerpolicy="no-referrer"
             class="w-full h-full object-cover object-[32%_center] sm:object-[34%_center] lg:object-[36%_center] select-none"
           />
-          <!-- Subtle fade on the edge into the coffee tone -->
-          <div class="hidden lg:block absolute inset-y-0 right-0 w-16 bg-gradient-to-r from-transparent to-[#342A21] pointer-events-none"></div>
-          <div class="lg:hidden absolute inset-x-0 bottom-0 h-16 bg-gradient-to-b from-transparent to-[#342A21] pointer-events-none"></div>
+          <!-- Subtle fade on the edge into black for seamless transition -->
+          <div class="hidden lg:block absolute inset-y-0 right-0 w-20 bg-gradient-to-r from-transparent to-black pointer-events-none"></div>
+          <div class="lg:hidden absolute inset-x-0 bottom-0 h-20 bg-gradient-to-b from-transparent to-black pointer-events-none"></div>
         </div>
 
-        <!-- Right Half: Bio Text & Social Links with Dark Coffee Background -->
-        <div class="w-full h-full flex flex-col justify-center px-8 sm:px-14 md:px-20 lg:px-20 xl:px-24 py-16 sm:py-20 lg:py-24 text-[#fff8f0] bg-[#342A21]">
+        <!-- Right Half: Bio Text & Social Links with Black Background -->
+        <div class="w-full h-full flex flex-col justify-center px-8 sm:px-14 md:px-20 lg:px-20 xl:px-24 py-16 sm:py-20 lg:py-24 text-[#fff8f0] bg-black">
           <div class="max-w-xl mx-auto lg:mx-0 w-full flex flex-col justify-center">
             
             <!-- Bio Paragraphs -->
@@ -60,10 +60,10 @@ import { CommonModule } from '@angular/common';
               
               <!-- Instagram -->
               <a 
-                href="https://instagram.com/creativedrago" 
+                href="https://www.instagram.com/creative_drago/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                aria-label="Instagram de Alexandre Vieira (@creativedrago)"
+                aria-label="Instagram de Alexandre Vieira (@creative_drago)"
                 title="Instagram"
                 class="text-[#fff8f0]/90 hover:text-[#77fe3f] hover:scale-110 active:scale-95 transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#77fe3f] rounded-md p-1"
               >
@@ -74,10 +74,10 @@ import { CommonModule } from '@angular/common';
 
               <!-- YouTube -->
               <a 
-                href="https://youtube.com/@creativedrago" 
+                href="https://www.youtube.com/@creative_drago" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                aria-label="Canal YouTube de Alexandre Vieira (@creativedrago)"
+                aria-label="Canal YouTube de Alexandre Vieira (@creative_drago)"
                 title="YouTube"
                 class="text-[#fff8f0]/90 hover:text-[#77fe3f] hover:scale-110 active:scale-95 transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#77fe3f] rounded-md p-1"
               >
@@ -88,7 +88,7 @@ import { CommonModule } from '@angular/common';
 
               <!-- Vimeo -->
               <a 
-                href="https://vimeo.com/creativedrago" 
+                href="https://vimeo.com/user184871109?embedded=true&source=owner_name&owner=184871109" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="Vimeo de Alexandre Vieira"

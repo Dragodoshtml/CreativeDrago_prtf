@@ -9,20 +9,15 @@ import { PortfolioService } from '../../services/portfolio';
   imports: [CommonModule, MatIconModule],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <footer class="border-t border-[#fff8f0]/10 bg-neutral-950/80 backdrop-blur-md text-[#fff8f0]/70 transition-colors duration-300">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        <div class="flex flex-col sm:flex-row items-center justify-between text-xs text-[#fff8f0]/60 gap-4 font-mono">
-          <p>© Alexandre Vieira. Todos os direitos reservados.</p>
-          
-          <button 
-            (click)="scrollToTop()" 
-            class="flex items-center gap-1 hover:text-[#77fe3f] transition-colors cursor-pointer"
-          >
-            <span>Voltar ao topo</span>
-            <mat-icon class="!w-4 !h-4 text-sm">arrow_upward</mat-icon>
-          </button>
-        </div>
-      </div>
+    <footer class="w-full bg-black py-10 flex items-center justify-center transition-colors duration-300">
+      <button 
+        (click)="scrollToTop()" 
+        class="group flex items-center gap-2 text-xs uppercase tracking-[0.2em] font-medium text-[#fff8f0]/60 hover:text-[#77fe3f] transition-all duration-300 cursor-pointer focus:outline-none focus-visible:ring-1 focus-visible:ring-[#77fe3f] px-4 py-2 rounded-full hover:bg-white/[0.04]"
+        aria-label="Voltar ao topo"
+      >
+        <span>Voltar ao topo</span>
+        <mat-icon class="!w-4 !h-4 text-sm transition-transform duration-300 group-hover:-translate-y-1">arrow_upward</mat-icon>
+      </button>
     </footer>
   `
 })
